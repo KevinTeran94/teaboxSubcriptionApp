@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminOrderListFragment">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lbl_orderList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ORDER LIST"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="25sp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="135dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <ListView
+                android:id="@+id/adminOrderList_orderListView"
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:layout_below="@+id/lbl_orderList"
+                android:layout_marginTop="40dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminInventoryFragment">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lbl_inventory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INVENTORY"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="25sp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="130dp"
+                android:textColor="@color/black">
+            </TextView>
+
+<!--            <TextView-->
+<!--                android:id="@+id/inventory_product1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="155dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:textSize="18sp"-->
+<!--                android:text="Product 1"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="serif">-->
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/inventory_product2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="250dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:textSize="18sp"-->
+<!--                android:text="Product 2"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="serif">-->
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/inventory_product3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="355dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:textSize="18sp"-->
+<!--                android:text="Product 3"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="serif">-->
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/inventory_product4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="450dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:textSize="18sp"-->
+<!--                android:text="Product 4"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="serif">-->
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/inventory_product5"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="555dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:textSize="18sp"-->
+<!--                android:text="Product 6"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="serif">-->
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/inventory_product6"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="650dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:textSize="18sp"-->
+<!--                android:text="Product 6"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="serif">-->
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/inventory_product7"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="755dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:textSize="18sp"-->
+<!--                android:text="Product 7"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="serif">-->
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/inventory_product8"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="850dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:textSize="18sp"-->
+<!--                android:text="Product 8"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="serif">-->
+<!--            </TextView>-->
+
+            <ListView
+                android:id="@+id/adminInventory_listView"
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:layout_below="@+id/lbl_inventory"
+                android:layout_marginTop="40dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

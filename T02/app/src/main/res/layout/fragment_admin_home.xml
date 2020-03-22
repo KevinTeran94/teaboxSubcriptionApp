@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHomeFragment">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/admin_homePage_usernameTxt"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="66dp"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEA SUBSCRIPTION BOX"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="25sp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◎ Select a payment cycle of your choice: 1-month, 3-month, and 6-month"
+        android:textSize="20sp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◎ Place your order"
+        android:textSize="20sp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◎ Your order will be  shipped to you within the first week of the month"
+        android:textSize="20sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◎ Every month the charges and shipments' notifications will be sent"
+        android:textSize="20sp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <Button
+        android:id="@+id/AdminHomeOneMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1-Month Plan"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="@color/b1"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual">
+    </Button>
+
+    <Button
+        android:id="@+id/AdminHomeThreeMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3-Month Plan"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="@color/yellow"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual">
+    </Button>
+
+    <Button
+        android:id="@+id/AdminHomeSixMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6-Month Plan"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual">
+    </Button>
+
+</FrameLayout>

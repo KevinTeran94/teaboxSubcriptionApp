@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryFragment">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GALLERY"
+                android:textSize="30sp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="125dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/black">
+            </TextView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/tea_fruits_and_nuts_tisane">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/gallery_tea1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="155dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Fruits and Nuts Tisane"
+                android:textColor="@color/b2"
+                android:fontFamily="sans-serif-smallcaps">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gallery_tea1_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="170dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:text="Complete your celebrations with an extravaganza of your favorite fruits and nuts.">
+            </TextView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="290dp"
+                android:src="@drawable/tea_goomtee_classic_spring_darjeeling_chinary_black">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/gallery_tea2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="295dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Spring Chinary Black Tea"
+                android:textColor="@color/b2"
+                android:fontFamily="sans-serif-smallcaps">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gallery_tea2_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="320dp"
+                android:layout_marginLeft="170dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:text="Slightly brisk with raw fruity and sweet green notes.">
+            </TextView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="430dp"
+                android:src="@drawable/tea_mango_strawberry_black">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/gallery_tea3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="435dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/b2"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Mango Strawberry Black Tea">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gallery_tea3_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="170dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:text="A delightfully bright blend of the choicest fruits with a refreshing hint of mint.">
+            </TextView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="570dp"
+                android:src="@drawable/tea_nilgiri_jasmine_black">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/gallery_tea4_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="575dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/b2"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Nilgiri Jasmine Black Tea">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gallery_tea4_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                android:layout_marginLeft="170dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-"
+                android:text="A tea soaked in alluring scents of jasmine and marigold.">
+            </TextView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="710dp"
+                android:src="@drawable/tea_rose_mint_summer_darjeeling_white_tea">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/gallery_tea5_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="715dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/b2"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Rose Mist White Tea">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gallery_tea5_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="740dp"
+                android:layout_marginLeft="170dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:text="An extraordinary blend of a fine Darjeeling white and tender rose buds, sweet and fragrant.">
+            </TextView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="850dp"
+                android:src="@drawable/tea_orange_pineapple_black">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/gallery_tea6_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="855dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/b2"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Orange Pineapple Black Tea">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gallery_tea6_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="880dp"
+                android:layout_marginLeft="170dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:text="A bright cup with fruity fragrance and sweet tang of oranges and pineapple.">
+            </TextView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="990dp"
+                android:src="@drawable/tea_paan_rose_green">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/gallery_tea7_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="995dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/b2"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Paan Rose Green Tea">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gallery_tea7_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1020dp"
+                android:layout_marginLeft="170dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:text="A sumptuous blend made with flavors unique to the Indian subcontinent.">
+            </TextView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1130dp"
+                android:src="@drawable/tea_pure_matcha_green_tea">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/gallery_tea8_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1135dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/b2"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Pure Matcha Green Tea">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gallery_tea8_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1160dp"
+                android:layout_marginLeft="170dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:text="A traditional matcha to keep you energized whole day.">
+            </TextView>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

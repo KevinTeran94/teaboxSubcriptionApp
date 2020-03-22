@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreeMonthFragment">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/page_name_3_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="70dp"
+                android:text="3-Month Plan"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-medium">
+            </TextView>
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="120dp"
+                android:src="@drawable/teabox3">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/page_price_3_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="390dp"
+                android:text="Price: $55"
+                android:textSize="20sp"
+                android:fontFamily="serif"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Overview"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="22sp"
+                android:fontFamily="sans-serif-medium">
+            </TextView>
+
+            <TextView
+                android:id="@+id/page_productOverview1_3_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:fontFamily="serif">
+            </TextView>
+
+            <TextView
+                android:id="@+id/page_productOverview2_3_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="580dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:fontFamily="serif">
+            </TextView>
+
+            <TextView
+                android:id="@+id/page_productOverview3_3_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="680dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:fontFamily="serif">
+            </TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subscribeBtn"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="120dp"
+                android:text="Subscribe Now"
+                android:textSize="20sp"
+                android:backgroundTint="@color/b1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace">
+            </Button>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

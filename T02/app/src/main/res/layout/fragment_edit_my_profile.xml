@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditMyProfileFragment">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editMyProfile_city"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="290dp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textSize="20sp"></EditText>
+
+        <EditText
+            android:id="@+id/editMyProfile_lastName"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="230dp"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:inputType="textPersonName"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="180dp"
+            android:fontFamily="casual"
+            android:text="First Name:"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="240dp"
+            android:fontFamily="casual"
+            android:text="Last Name:"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:fontFamily="casual"
+            android:text="City:"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/EditMyProfile_address_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="360dp"
+            android:fontFamily="casual"
+            android:text="Address:"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="420dp"
+            android:fontFamily="casual"
+            android:text="Province:"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="480dp"
+            android:fontFamily="casual"
+            android:text="Postal Code:"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="540dp"
+            android:fontFamily="casual"
+            android:text="Phone:"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT MY PROFILE"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="25sp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="105dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <EditText
+        android:id="@+id/editMyProfile_firstName"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="170dp"
+        android:fontFamily="casual"
+        android:textColor="@color/black"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/editMyProfile_address"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="casual"
+        android:textColor="@color/black"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/editMyProfile_province"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="410dp"
+        android:fontFamily="casual"
+        android:textColor="@color/black"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/editMyProfile_postalCode"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="casual"
+        android:textColor="@color/black"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/editMyProfile_phone"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="530dp"
+        android:fontFamily="casual"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20sp"></EditText>
+
+    <Button
+        android:id="@+id/editMyProfile_ConfirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/b1"
+        android:fontFamily="serif-monospace"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/editMyProfile_CancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/b1"
+        android:fontFamily="serif-monospace"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"></Button>
+
+</RelativeLayout>

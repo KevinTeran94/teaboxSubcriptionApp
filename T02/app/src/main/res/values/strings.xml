@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">T02</string>
+    <string name="home">Home</string>
+    <string name="gallery">Gallery</string>
+    <string name="myaccount">My Account</string>
+    <string name="about_us">About Us</string>
+    <string name="t02">T02</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tea_subscription">Tea Subscription</string>
+</resources>

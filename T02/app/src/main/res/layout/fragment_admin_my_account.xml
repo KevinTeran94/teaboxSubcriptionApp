@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminMyAccountFragment">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin,"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="250dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMIN ACCOUNT"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <Button
+        android:id="@+id/admin_orderListBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order List"
+        android:layout_marginTop="240dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/b1"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/admin_customerListBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer List"
+        android:layout_marginTop="340dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/b1"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/admin_inventoryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inventory"
+        android:layout_marginTop="440dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/b1"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/admin_signOutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:layout_marginTop="540dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/b1"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textStyle="bold">
+    </Button>
+
+</RelativeLayout>
